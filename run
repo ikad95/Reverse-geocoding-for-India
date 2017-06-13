@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "dbdump"
+python sql_to_json.py
+echo "dbdump complete"
+echo "\n\n\n\n"
+echo "Reversing...!"
+python geo_rev.py
+echo "All Done"

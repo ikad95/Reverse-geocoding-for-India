@@ -1,0 +1,7 @@
+import json
+
+with open('cities.json') as d:
+	city = json.load(d)
+with open('city_detailed.json') as d:
+	city_d = json.load(d)
+for i in rang
